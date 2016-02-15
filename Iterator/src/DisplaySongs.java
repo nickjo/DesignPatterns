@@ -29,7 +29,9 @@ public class DisplaySongs {
 		
 		System.out.println("###90³â´ë È÷Æ®°î### ");
 		for(int i=0; i < arraySong90s.length; i++){
-			System.out.println(arraySong90s[i].getSinger() +", " + arraySong90s[i].getTitle() + ", " + arraySong90s[i].getYear());
+			System.out.println(arraySong90s[i].getSinger() +", " + 
+					arraySong90s[i].getTitle() + ", " + 
+					arraySong90s[i].getYear());
 		}
 	}
 
